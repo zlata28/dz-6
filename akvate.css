@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1920px;
+    height: 5155px;
+    background-color: black;
+}
+
+/* Меню */
+
+header{
+    width: 1298px;
+    height: 60px;
+    margin: 30px auto 0 auto;
+    display: flex;
+}
+#foto,#foto2{
+    position: relative;
+    margin-top: auto;
+    justify-content: flex-start;
+} 
+#foto2{
+    left: -47px;
+    top: -25px;
+    }
+    nav{
+        margin: 30px auto 0 auto;
+    }
+
+nav a{
+    color: white;    
+    margin: 30px;
+    text-decoration: none;      
+}
+button{
+    justify-content: flex-end;
+    padding: 9px 15px 9px 15px;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 6px;
+}
+/* Основной */
+.main{
+    background-position: center;
+}
+
+.head_logo{
+    position: absolute;
+    width: 1296px;
+    height: 600px;
+    left: 312px;
+    top: 140px;
+    
+    text-emphasis: center; 
+    color: white;      
+       
+ } 
+    
